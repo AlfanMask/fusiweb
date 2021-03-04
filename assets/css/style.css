@@ -1,0 +1,127 @@
+/*SETUP*/
+.container-fluid{
+	padding:0 100px;
+}
+@font-face{
+	font-family: montserrat;
+	src: url(../font/montserrat/Montserrat-Bold.ttf);
+	font-weight: bold;
+}
+.btn-primary:focus{
+	box-shadow: 0 0 0 0.2rem rgba(255,255,255,0) !important;
+}
+
+/* Navbar */
+nav{
+	position: relative;
+	z-index: 1;
+	background-color: rgba(0,0,0,0);
+}
+.navbar-nav .nav-item a,.navbar-nav .nav-item a button{
+	font-weight: bold !important;
+	font-size: 12px;
+}
+.navbar-nav .nav-item a, .navbar-nav .nav-item{
+	color:#fff !important;
+}
+.navbar-nav .nav-item a button{
+	border-radius: 30px;
+	padding:2.5px 15px;
+	background-color: #9dc88d;
+	border-width: 0px;
+	color:#164a41;
+	font-weight: 700;
+}
+.nav-item a button:focus{
+	background-color: #9dc88d !important;
+}
+.navbar-nav .nav-item{
+	margin-right: 20px;
+}
+ul.navbar-nav{
+	display: flex;
+	align-items: center;
+}
+ul.nav-right{
+	position: absolute;
+	margin-right: 140px;
+	right: 0 !important;
+}
+ul.nav-right li{
+	display: inline !important;
+}
+.nav-right li.nav-separator{
+	font-weight: bold !important;
+}
+
+/*Jumbotron*/
+.jumbotron{
+	position: absolute;
+	z-index: 0;
+	height: 600px;
+	width: 100%;
+	top:0;
+	border-radius: 0;
+	background-image: linear-gradient(to right, #164a41, #4d774e);
+}
+.jumbotron-text{
+	position: absolute;
+	top:45%;
+}
+.jumbotron h1, .jumbotron p{
+	color:#fff;
+}
+.jumbotron h1{
+	font-family: montserrat;
+	font-weight: bold;
+	font-size: 48px;
+}
+.jumbotron p{
+	font-weight: 400;
+	opacity: .5;
+	font-size: 16px;
+}
+.jumbotron button{
+	border-radius: 30px;
+	background-color: #f1b24a;
+	border-width: 0;
+	font-size: 12px;
+	font-weight: bold;
+	padding:5px 15px;
+	color: #164a41;
+}
+.jumbotron button:hover{
+	background-color: rgba(0,0,0,0);
+	transition-duration: .25s;
+	border-width: 1px;
+	border-color: #fff;
+}
+.jumbotron button:focus{
+	background-color: #f1b24a !important;
+}
+.jumbotron-img{
+	background-color: red;
+	position: absolute;
+	right: 0;
+}
+.jumbotron-img img{
+	position: absolute;
+	right: 0;
+	width: 800px;
+	position: absolute;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+
+
+
+
+
+
+
+/*COLOR
+hard green: #164a41;
+medium green: #4d774e;
+light green: #9dc88d;
+yellow: #f1b24a;
+*/
