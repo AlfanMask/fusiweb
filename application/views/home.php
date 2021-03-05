@@ -38,7 +38,41 @@
 </div>
 <!-- END OF Section 1 -->
 
+<!-- Section 2 -->
+<div class="section-2 container-fluid mb-5">
+  <h2 class="text-center mb-5">3 Fungsi FUSI</h2>
+  <div class="row justify-content-center">
+    <div class="fungsi col-md-3   ">
+      <div class="img">
+        <img style="width: 150px;" src="<?= base_url('assets/img/fungsi/fungsi-pembinaan.png') ?>">
+      </div>
+      <p class="title">Pembinaan</p>
+      <p class="sub-title">Membina anggota menjadi pribadi yang bertaqwa kepada Allah SWT</p>
+    </div>
+    <div class="arrow col-md-1">
+      <img src="<?= base_url('assets/img/fungsi/arrow.png') ?>">
+    </div>
+    <div class="fungsi col-md-3">
+      <div class="img">
+        <img style="width: 115px;" src="<?= base_url('assets/img/fungsi/fungsi-silaturahim.png') ?>">
+      </div>
+      <p class="title">Silaturahim</p>
+      <p class="sub-title">Menjalin silaturahim antar civitas akademika Fakultas Pertanian UNS Surakarta</p>
+    </div>
+    <div class="arrow col-md-1">
+      <img src="<?= base_url('assets/img/fungsi/arrow.png') ?>">
+    </div>
+    <div class="fungsi col-md-3">
+      <div class="img">
+        <img style="width: 150px;" src="<?= base_url('assets/img/fungsi/fungsi-lain.png') ?>">
+      </div>
+      <p class="title">Fungsi Lain</p>
+      <p class="sub-title">Menjalankan fungsi-fungsi lain yang sesuai dengan asas organisasi dan tujuan organisasi.</p>
+    </div>
 
+  </div>
+</div>
+<!-- END OF Section2 -->
 
 
 <!-- <div class="container-fluid" style="height:100px; width:100%;">nadanada</div> -->
