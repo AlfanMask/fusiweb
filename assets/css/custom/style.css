@@ -1,0 +1,81 @@
+/* SETUP */
+.container-fluid{
+	padding:0 100px;
+}
+@font-face{
+	font-family: montserrat;
+	src: url(../font/montserrat/Montserrat-Bold.ttf);
+	font-weight: bold;
+}
+.btn-primary:focus{
+	box-shadow: 0 0 0 0.2rem rgba(255,255,255,0) !important;
+}
+h1{
+	font-family: montserrat;
+	font-size: 48px;
+	font-weight: bold;
+}
+h2{
+	font-family: montserrat;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+/* Navbar */
+nav{
+	position: relative;
+	z-index: 1;
+	background-color: rgba(0,0,0,0);
+}
+.navbar-nav .nav-item a,.navbar-nav .nav-item a button{
+	font-weight: bold !important;
+	font-size: 12px;
+}
+.navbar-nav .nav-item a, .navbar-nav .nav-item{
+	color:#fff !important;
+}
+.navbar-nav .nav-item a button{
+	border-radius: 30px;
+	padding:2.5px 15px;
+	background-color: #9dc88d;
+	border-width: 0px;
+	color:#164a41;
+	font-weight: 700;
+}
+.nav-item a button:focus{
+	background-color: #9dc88d !important;
+}
+.navbar-nav .nav-item{
+	margin-right: 20px;
+}
+ul.navbar-nav{
+	display: flex;
+	align-items: center;
+}
+ul.nav-right{
+	position: absolute;
+	margin-right: 140px;
+	right: 0 !important;
+}
+ul.nav-right li{
+	display: inline !important;
+}
+.nav-right li.nav-separator{
+	font-weight: bold !important;
+}
+
+/* Body */
+body{
+	background-image: url('../../img/bg-wp.png');
+}
+
+
+
+
+
+/*COLOR
+hard green: #164a41;
+medium green: #4d774e;
+light green: #9dc88d;
+yellow: #f1b24a;
+*/

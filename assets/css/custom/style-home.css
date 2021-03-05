@@ -1,0 +1,96 @@
+
+/*Jumbotron*/
+.jumbotron{
+	position: absolute;
+	z-index: 0;
+	height: 600px;
+	width: 100%;
+	top:0;
+	border-radius: 0;
+	background-image: linear-gradient(to right, #164a41, #4d774e);
+}
+.jumbotron-text{
+	position: absolute;
+	top:45%;
+}
+.jumbotron h1, .jumbotron p{
+	color:#fff;
+}
+.jumbotron p{
+	font-weight: 400;
+	opacity: .5;
+	font-size: 16px;
+}
+.jumbotron button{
+	border-radius: 30px;
+	background-color: #f1b24a;
+	border-width: 0;
+	font-size: 12px;
+	font-weight: bold;
+	padding:5px 15px;
+	color: #164a41;
+}
+.jumbotron button:hover{
+	background-color: rgba(0,0,0,0);
+	transition-duration: .25s;
+	border-width: 1px;
+	border-color: #fff;
+}
+.jumbotron button:focus{
+	background-color: #f1b24a !important;
+}
+.jumbotron-img{
+	background-color: red;
+	position: absolute;
+	right: 0;
+}
+.jumbotron-img img{
+	position: absolute;
+	right: 0;
+	width: 800px;
+	position: absolute;
+	margin-top: 50px;
+	margin-right: 100px;
+}
+
+/* Section 1 */
+.section-1{
+	margin-top:600px;
+}
+.section-1 .img-ketum{
+	width: 100%;
+	height: 410px;
+	background-image: url('../../img/ketum-destra.png');
+	background-size: cover;
+	background-position: center;
+	transform: scale(-1,1);
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,.4);
+}
+.section-1 .content{
+	margin-left: 40px;
+}
+.section-1 .content h2,.section-1 .content p,.section-1 .content li{
+	color:#164a41;
+}
+.section-1 .content p{
+	font-weight: 500;
+	font-size: 16px;
+}
+.section-1 .content ul{
+	padding:0;
+	margin-left: 20px;
+}
+.section-1 .content ul li{
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+
+
+/*COLOR
+hard green: #164a41;
+medium green: #4d774e;
+light green: #9dc88d;
+yellow: #f1b24a;
+*/
