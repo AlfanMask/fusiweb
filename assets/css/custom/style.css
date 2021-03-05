@@ -20,6 +20,28 @@ h2{
 	font-size: 36px;
 	font-weight: bold;
 }
+button.btn-yellow{
+	border-radius: 30px;
+	background-color: #f1b24a;
+	border-width: 0;
+	font-size: 12px;
+	font-weight: bold;
+	padding:5px 15px;
+	color: #164a41;
+	box-shadow: 0 2.5px 5px rgba(0,0,0,.4);
+}
+button.btn-yellow:hover{
+	background-color: rgba(0,0,0,0);
+	transition-duration: .25s;
+	border-width: 1px;
+	border-color: #fff;
+}
+button.btn-yellow:focus{
+	background-color: #f1b24a !important;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+
+}
 
 /* Navbar */
 nav{
