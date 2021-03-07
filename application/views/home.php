@@ -84,5 +84,103 @@
 </div>
 <!-- END OF Section 3 -->
 
+<!-- Section 4 -->
+<div class="section-4 container-fluid mb-5">
+  
+  <div class="row">
+    <div class="left-side col-md-8">
+      <h2 class="mb-5">Blog Terkini</h2>
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="<?= base_url('assets/img/blog/blog-1.jpg') ?>" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">PBNU soal Deklarasi Tentara Allah: Jangan Permainkan Warga dengan Jubah Agama</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="<?= base_url('assets/img/blog/blog-2.png') ?>" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Potret Muslim Dunia Kecam Pernyataan Presiden Prancis</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="<?= base_url('assets/img/blog/blog-3.jpeg') ?>" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Sholat Sunah Rawatib: Niat, Bacaan, Bagaimana Mengerjakannya?</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="right-side col-md-4">
+      <h2 class="mb-5">Jadwal Sholat</h2>
+      <table class="table">
+        <thead>
+          <tr class="tr-head">
+            <th scope="col">Shalat</th>
+            <th scope="col" class="text-center" style="padding-left: 40px;">Start</th>
+            <th scope="col" class="text-center" style="padding-left: 40px;">Iqamah</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">Subuh</td>
+            <td class="text-center">4:30</td>
+            <td class="text-center">4:45</td>
+          </tr>
+          <tr>
+            <td scope="row">Dhuhur</td>
+            <td class="text-center">12:05</td>
+            <td class="text-center">12:15</td>
+          </tr>
+          <tr>
+            <td scope="row">Asr</td>
+            <td class="text-center">15:35</td>
+            <td class="text-center">15:45</td>
+          </tr>
+          <tr>
+            <td scope="row">Maghrib</td>
+            <td class="text-center">18:05</td>
+            <td class="text-center">18:15</td>
+          </tr>
+          <tr>
+            <td scope="row">Isya</td>
+            <td class="text-center">19:20</td>
+            <td class="text-center">19:35</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+<!-- END OF Section 4 -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="container-fluid">
+    <div class="left-footer">
+      <img src="<?= base_url('assets/img/logo_fusi.png') ?>">
+      <p><i class="fas fa-copyright"></i>2021 FUSI FP UNS</p>
+    </div>
+    <div class="right-footer">
+      <a href="#"><img src="<?= base_url('assets/img/sosmed/fb.png') ?>"></a>
+      <a href="#"><img src="<?= base_url('assets/img/sosmed/ig.png') ?>"></a>
+      <a href="#"><img src="<?= base_url('assets/img/sosmed/twt.png') ?>"></a>
+      <a href="#"><img src="<?= base_url('assets/img/sosmed/yt.png') ?>"></a>
+    </div>
+  </div>
+</footer>
+<!-- END OF Footer -->
 
 <!-- <div class="container-fluid" style="height:100px; width:100%;">nadanada</div> -->
